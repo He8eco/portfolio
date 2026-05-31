@@ -1,3 +1,27 @@
+@font-face {
+  font-family: 'Iosevka Charon';
+  src: url('./assets/fonts/IosevkaCharon-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Iosevka Charon';
+  src: url('./assets/fonts/IosevkaCharon-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Iosevka Charon';
+  src: url('./assets/fonts/IosevkaCharon-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 *,
 *::before,
 *::after {
@@ -15,9 +39,7 @@ html {
 
 body {
   min-height: 100vh;
-  font-family:
-    'losevkaCharon',
-    sans-serif;
+  font-family: 'Iosevka Charon', monospace;
   line-height: 1.5;
   background: linear-gradient(135deg, #05080f 0%, #071022 45%, #04070d 100%);
 }
@@ -52,28 +74,4 @@ a {
 ul,
 ol {
   list-style: none;
-}
-
-@font-face {
-  font-family: 'losevkaCharon';
-  src: url('./assets/fonts/IosevkaCharon-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'losevkaCharon';
-  src: url('./assets/fonts/IosevkaCharon-Medium.woff2') format('woff2');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'losevkaCharon';
-  src: url('./assets/fonts/IosevkaCharon-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
 }
