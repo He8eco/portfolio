@@ -1,41 +1,148 @@
 header {
-  background-color: #172033;
+  background-color: #050A12;
   display: flex;
   justify-content: space-between;
-  padding: 1rem 2rem;
+  padding: 1em 4em;
   align-items: center;
 }
 
 .logo {
-  font-size: 3.2rem;
+  font-size: 5.6em;
   font-weight: 700;
   letter-spacing: -0.08em;
 }
 
 .logo-accent {
-    color: #4268FF
+  color: #4268ff;
 }
 
 nav a {
-    font-size: 1.5rem;
-    padding: 1rem;
-    opacity: 0.75;
+  font-size: 2.4em;
+  padding: 0.8em;
+  opacity: 0.75;
 }
 
 nav a:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
-
 .languages {
-    font-size: 1.5rem;
+  font-size: 2.4em;
 }
 
 .languages button {
-    opacity: 0.75;
-    padding: 0 0.8rem;
+  opacity: 0.75;
+  padding: 0 0.4em;
 }
 
 .languages button.active {
-    opacity: 1;
+  opacity: 1;
+}
+
+.hero {
+  background:
+    radial-gradient(
+      circle at 85% 30%,
+      rgba(46, 97, 255, 0.35) 0%,
+      transparent 38%
+    ),
+    linear-gradient(135deg, #05080f 0%, #071022 45%, #050912 100%);
+  padding: 1em 0 2.5em 4em;
+}
+
+.hero-intro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6em;
+  border: 0.15em solid #31415e;
+  border-radius: 1.6em;
+  background-color: #07101e;
+  font-size: 2.4em;
+  padding: 0.6em 1em;
+  margin-top: 2em;
+}
+
+.hero-status-dot {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: #22c55e;
+}
+
+.hero-title {
+  margin-top: 0.2em;
+  font-size: 8em;
+}
+
+.hero-title span {
+  color: #4268ff;
+}
+
+.hero-subtitle {
+  font-size: 4.8em;
+}
+
+.hero-subtitle::after {
+  content: '';
+  display: inline-block;
+  width: 0.12em;
+  height: 1.2em;
+  margin-left: 0.2em;
+  background-color: #8ba3ff;
+  vertical-align: -0.2em;
+}
+
+.hero-description {
+  margin: 1em 0 1em;
+  font-size: 2.4em;
+  color: #a9b3c8;
+}
+.hero-image {
+  width: 65em;
+  height: 60em;
+}
+
+.hero-skills {
+  display: inline-flex;
+  gap: 4.8em;
+}
+
+.hero-skill {
+  display: flex;
+  align-items: center;
+}
+
+.hero-skill-icon {
+  width: 3.2em;
+  height: 3.2em;
+  margin-right: 1.8em;
+}
+
+.hero-skill span {
+  color: #a9b3c8;
+  font-size: 2rem;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 3em;
+  margin-top: 3em;
+}
+
+.button-contact {
+  padding: 1em;
+  font-size: 2em;
+  background-color: #081121;
+  border-radius: 0.8em;
+  border: 0.2em solid #33425f;
+}
+
+.button-contact.blue {
+  border: none;
+  background: linear-gradient(0deg, #1f4cff 0%, #4d70ff 100%);
 }
