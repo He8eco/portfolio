@@ -1,8 +1,8 @@
 header {
-  background-color: #050A12;
+  background-color: #050a12;
   display: flex;
   justify-content: space-between;
-  padding: 1em 4em;
+  padding: 1em 4em 1em 0;
   align-items: center;
 }
 
@@ -47,7 +47,7 @@ nav a:hover {
       transparent 38%
     ),
     linear-gradient(135deg, #05080f 0%, #071022 45%, #050912 100%);
-  padding: 1em 0 2.5em 4em;
+  padding: 1em 0 2.5em;
 }
 
 .hero-intro {
@@ -145,4 +145,78 @@ nav a:hover {
 .button-contact.blue {
   border: none;
   background: linear-gradient(0deg, #1f4cff 0%, #4d70ff 100%);
+}
+
+.section {
+  margin-top: 1em;
+}
+
+.section-header {
+  position: relative;
+  display: inline-block;
+  font-size: 4em;
+  margin-bottom: 1em;
+}
+
+.section-header::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -0.4em;
+  width: 3em;
+  height: 0.2em;
+  border-radius: 1em;
+  background-color: #4268ff;
+}
+
+.section-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8em;
+}
+
+.section-skill {
+  padding: 2em 3em;
+  background-color: #0a1120;
+  border-radius: 0.8em;
+  border: 0.2em solid #253451;
+  width: 35em;
+}
+
+.section-skill-title {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.section-skill-title img {
+  width: 8em;
+  fill: #fff;
+}
+
+.section-skill-title span {
+  flex-wrap: wrap;
+  font-size: 3.2em;
+  font-weight: 500;
+}
+
+.section-skill-description {
+  font-size: 2.4em;
+  color: #a9b3c8;
+  margin: 1em 0;
+}
+
+.section-skill-list {
+  display: flex;
+  gap: 1em;
+}
+
+.section-skill-list li {
+  font-size: 1.8em;
+  color: #9cb1ff;
+  padding: 0.3em 0.5em;
+  background-color: #122248;
+  border-radius: 0.8em;
+  border: 0.1em solid #213761;
 }
