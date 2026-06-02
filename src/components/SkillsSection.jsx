@@ -38,9 +38,9 @@ export function SkillsSection() {
               <span>{skill.name}</span>
             </div>
             <p className="section-skill-description">{skill.description}</p>
-            <ul className="section-skill-list">
+            <ul className="section-list">
               {skill.tags.map((tag) => (
-                <li>{tag}</li>
+                <li key={tag}>{tag}</li>
               ))}
             </ul>
           </div>
