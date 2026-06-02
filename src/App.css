@@ -195,7 +195,8 @@ nav a:hover {
   fill: #fff;
 }
 
-.section-skill-title span {
+.section-skill-title span,
+.project-info-name {
   flex-wrap: wrap;
   font-size: 3.2em;
   font-weight: 500;
@@ -207,16 +208,70 @@ nav a:hover {
   margin: 1em 0;
 }
 
-.section-skill-list {
+.section-list {
   display: flex;
   gap: 1em;
 }
 
-.section-skill-list li {
+.section-list li,
+.type-project {
   font-size: 1.8em;
   color: #9cb1ff;
   padding: 0.3em 0.5em;
   background-color: #122248;
   border-radius: 0.8em;
   border: 0.1em solid #213761;
+}
+
+.section-projects {
+  padding-right: 4em;
+}
+
+.section-project {
+  display: flex;
+  background-color: #0b1222;
+  border: 0.2em solid #273652;
+  border-radius: 0.8em;
+  padding: 2em;
+  margin-bottom: 3em;
+}
+.section-project:last-child {
+  margin-bottom: 0em;
+}
+
+.section-project-cover {
+  width: 60em;
+}
+
+.project-info {
+  padding: 1em 2em;
+}
+
+.project-info-name {
+  margin-top: 0.4em;
+}
+
+.project-description {
+  font-size: 2em;
+  margin: 0.5em 0 1em;
+}
+
+.project-links {
+  display: flex;
+  gap: 2.8em;
+  margin-top: 2em;
+}
+
+.project-link {
+  display: flex;
+  font-size: 1.8em;
+  gap: 0.5em;
+  background-color: #091223;
+  border: 0.1em solid #3a4a67;
+  border-radius: 0.8em;
+  padding: 0.5em 1em;
+}
+
+.project-link img {
+  width: 1.5em;
 }
