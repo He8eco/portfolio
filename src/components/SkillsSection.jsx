@@ -9,26 +9,26 @@ export function SkillsSection() {
       icon: code,
       description:
         'Вёрстка и разработка адаптивных, быстрых и доступных интерфейсов.',
-      tags: ['HTML', 'CSS', 'JavaScript', 'Vite'],
+      tags: ['HTML', 'CSS', 'JavaScript', 'Vite', 'Figma'],
     },
     {
-      name: 'Frontend Development',
+      name: 'React & UI',
       icon: react,
       description:
-        'Вёрстка и разработка адаптивных, быстрых и доступных интерфейсов.',
-      tags: ['HTML', 'CSS', 'JavaScript', 'Vite'],
+        'Разработка SPA на React. Компонентный подход, состояния, маршрутизация, оптимизация.',
+      tags: ['React', 'Redux Toolkit', 'React Router', 'Tailwind'],
     },
     {
-      name: 'Frontend Development',
+      name: 'API & Tools',
       icon: cube,
       description:
-        'Вёрстка и разработка адаптивных, быстрых и доступных интерфейсов.',
-      tags: ['HTML', 'CSS', 'JavaScript', 'Vite'],
+        'Работа с API и базами данных. Инструменты для разработки, деплоя и контроля версий.',
+      tags: ['Supabase', 'Firebase', 'GitHub', 'Vercel'],
     },
   ]
 
   return (
-    <section id='skills' className="section">
+    <section id="skills" className="section">
       <h3 className="section-header">Мои навыки</h3>
       <div className="section-skills">
         {skills.map((skill) => (
