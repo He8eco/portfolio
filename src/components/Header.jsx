@@ -4,16 +4,16 @@ export function Header() {
   const [activeButton, setActiveButton] = useState('ru')
 
   return (
-    <header>
-      <a href="#" className="logo" aria-label="HeBeco">
+    <header id="top">
+      <a href="#top" className="logo" aria-label="HeBeco">
         <span>HeB</span>
         <span className="logo-accent">eco</span>
       </a>
       <nav>
-        <a href="#">Главная</a>
-        <a href="#">Навыки</a>
-        <a href="#">Проекты</a>
-        <a href="#">Контакты</a>
+        <a href="#top">Главная</a>
+        <a href="#skills">Навыки</a>
+        <a href="#projects">Проекты</a>
+        <a href="#contacts">Контакты</a>
       </nav>
       <div className="languages">
         <button

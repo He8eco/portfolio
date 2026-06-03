@@ -42,8 +42,8 @@ export function HeroSection() {
             ))}
           </ul>
           <div className="hero-buttons">
-            <button className='button-contact blue'>↗ Посмотреть проекты</button>
-            <button className='button-contact'>✉ Связаться</button>
+            <a href='#projects' className='button-contact blue'>↗ Посмотреть проекты</a>
+            <a href='#contacts' className='button-contact'>✉ Связаться</a>
           </div>
         </div>
         <img className="hero-image" src={heroImage} alt="heroImages" />

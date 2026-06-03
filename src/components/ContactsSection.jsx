@@ -26,7 +26,7 @@ export function ContactsSection() {
   ]
 
   return (
-    <section className="contacts">
+    <section id="contacts" className="contacts">
       <div className="cooperation">
         <div className="cooperation-info">
           <div className="cooperation-info-image">
@@ -54,7 +54,7 @@ export function ContactsSection() {
               <p className="contact-address">{contact.address}</p>
               <p>{contact.annotation}</p>
             </div>
-            <span className='arrow'>→</span>
+            <span className="arrow">→</span>
           </div>
         ))}
       </div>
