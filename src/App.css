@@ -421,7 +421,9 @@ nav a:hover {
   header {
     padding-right: 2em;
   }
-
+  .hero-status {
+    margin-top: 1em;
+  }
   .section-skills {
     margin-right: 4em;
   }
@@ -456,6 +458,9 @@ nav a:hover {
         transparent 58%
       ),
       linear-gradient(135deg, #05080f 0%, #071022 45%, #050912 100%);
+  }
+  .hero-status {
+    margin-top: 0em;
   }
 
   .hero-title,
