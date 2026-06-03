@@ -39,7 +39,7 @@ export function ProjectsSection() {
   ]
 
   return (
-    <section className="section">
+    <section id="projects" className="section">
       <h3 className="section-header">Мои проекты</h3>
       <div className="section-projects">
         {projects.map((project) => (
