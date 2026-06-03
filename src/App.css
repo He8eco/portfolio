@@ -302,7 +302,7 @@ nav a:hover {
   padding: 1em;
   background: radial-gradient(
     circle at 50% 50%,
-    rgba(1, 63, 219, 0.889) 20%,
+    rgba(22, 76, 214, 0.889) 20%,
     transparent 80%
   );
 }
