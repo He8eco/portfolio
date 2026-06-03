@@ -1,5 +1,5 @@
 import artPlast from '../assets/images/art-plast.png'
-import biomech from '../assets/images/biomech.png'
+import biomech from '../assets/images/Biomech.png'
 import gameexplorer from '../assets/images/gameexplorer.png'
 import gitHubLink from '../assets/images/icons/github-link.svg'
 import web from '../assets/images/icons/web.svg'
@@ -60,7 +60,7 @@ export function ProjectsSection() {
                     className="project-link"
                     href={project.web}
                     target="_blank"
-                     rel="noopener noreferrer"
+                    rel="noopener noreferrer"
                   >
                     <img src={web} alt="" />
                     Сайт
@@ -73,7 +73,7 @@ export function ProjectsSection() {
                     className="project-link"
                     href={project.github}
                     target="_blank"
-                     rel="noopener noreferrer"
+                    rel="noopener noreferrer"
                   >
                     <img src={gitHubLink} alt="" />
                     GitHub
