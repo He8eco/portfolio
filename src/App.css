@@ -365,6 +365,39 @@ nav a:hover {
   width: 6em;
 }
 
-.phone-info p {
+.footer {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 24px 0;
+}
 
+.footer-copy {
+  justify-self: start;
+  font-size: 1.8em;
+  color: #a9b3c8;
+}
+
+.footer-copy span {
+  color: #4f6df5;
+}
+
+.footer-links {
+  justify-self: center;
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.footer-links img {
+  width: 4em;
+}
+
+.footer-links a:hover {
+  color: #4f6df5;
+  transform: translateY(-2px);
+}
+
+.footer-spacer {
+  justify-self: end;
 }
