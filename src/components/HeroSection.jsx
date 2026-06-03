@@ -42,7 +42,7 @@ export function HeroSection() {
             ))}
           </ul>
           <div className="hero-buttons">
-            <a href='#projects' className='button-contact blue'>↗ Посмотреть проекты</a>
+            <a href='#projects' className='button-contact blue'>Посмотреть проекты</a>
             <a href='#contacts' className='button-contact'>✉ Связаться</a>
           </div>
         </div>

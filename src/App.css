@@ -1,7 +1,7 @@
 header {
   background-color: #050a12;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
   padding: 1em 4em 1em 0;
   align-items: center;
 }
@@ -140,11 +140,10 @@ nav a:hover {
   background-color: #081121;
   border-radius: 0.8em;
   border: 0.2em solid #33425f;
-  height: 4em;
 }
 
 .button-contact.blue {
-  border: none;
+  border: 0.2em solid #5b7cff;
   background: linear-gradient(0deg, #1f4cff 0%, #4d70ff 100%);
 }
 
@@ -255,6 +254,7 @@ nav a:hover {
 .project-description {
   font-size: 2em;
   margin: 0.5em 0 1em;
+  color: #a9b3c8;
 }
 
 .project-links {
@@ -271,6 +271,7 @@ nav a:hover {
   border: 0.1em solid #3a4a67;
   border-radius: 0.8em;
   padding: 0.5em 1em;
+  color: #a9b3c8;
 }
 
 .project-link img {
@@ -330,7 +331,8 @@ nav a:hover {
   margin: 3.2em 0 2em;
 }
 
-.contact-block, .phone {
+.contact-block,
+.phone {
   display: flex;
   background-color: #0b1222;
   border: 0.2em solid #273652;
@@ -343,11 +345,13 @@ nav a:hover {
   width: 6em;
 }
 
-.contact-info, .phone-info {
+.contact-info,
+.phone-info {
   margin-left: 2em;
 }
 
-.contact-info p,.phone p {
+.contact-info p,
+.phone p {
   font-size: 2em;
   color: #a9b3c8;
 }
@@ -369,12 +373,12 @@ nav a:hover {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  padding: 24px 0;
+  padding: 2em 0;
 }
 
 .footer-copy {
   justify-self: start;
-  font-size: 1.8em;
+  font-size: 2em;
   color: #a9b3c8;
 }
 

@@ -7,7 +7,7 @@ export function Footer() {
   return (
     <footer className="footer">
       <p className="footer-copy">
-        © 2024 <span>HeBeco</span>
+        © 2026 <span>HeBeco</span>
       </p>
 
       <div className="footer-links">
