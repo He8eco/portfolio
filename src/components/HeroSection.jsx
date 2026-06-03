@@ -5,6 +5,7 @@ import html from '../assets/images/icons/html.svg'
 import js from '../assets/images/icons/js.svg'
 import supabase from '../assets/images/icons/sb.svg'
 import react from '../assets/images/icons/react.svg'
+import mail from '../assets/images/icons/mail.svg'
 
 export function HeroSection() {
   const skills = [
@@ -48,7 +49,7 @@ export function HeroSection() {
           Посмотреть проекты
         </a>
         <a href="#contacts" className="button-contact">
-          ✉ Связаться
+          <img src={mail} alt="" /> Связаться
         </a>
       </div>
     </section>
