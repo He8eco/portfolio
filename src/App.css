@@ -26,19 +26,6 @@ nav a:hover {
   opacity: 1;
 }
 
-.languages {
-  font-size: 2.4em;
-}
-
-.languages button {
-  opacity: 0.75;
-  padding: 0 0.4em;
-}
-
-.languages button.active {
-  opacity: 1;
-}
-
 .hero {
   background:
     radial-gradient(
@@ -53,6 +40,7 @@ nav a:hover {
 .hero-intro {
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 
 .hero-status {
@@ -62,21 +50,21 @@ nav a:hover {
   border: 0.15em solid #31415e;
   border-radius: 1.6em;
   background-color: #07101e;
-  font-size: 2.4em;
+  font-size: 2em;
   padding: 0.6em 1em;
   margin-top: 2em;
 }
 
 .hero-status-dot {
-  width: 1em;
-  height: 1em;
+  width: 0.8em;
+  height: 0.8em;
   border-radius: 50%;
   background-color: #22c55e;
 }
 
 .hero-title {
   margin-top: 0.2em;
-  font-size: 8em;
+  font-size: 6em;
 }
 
 .hero-title span {
@@ -84,7 +72,7 @@ nav a:hover {
 }
 
 .hero-subtitle {
-  font-size: 4.8em;
+  font-size: 3.6em;
 }
 
 .hero-subtitle::after {
@@ -99,12 +87,15 @@ nav a:hover {
 
 .hero-description {
   margin: 1em 0 1em;
-  font-size: 2.4em;
+  font-size: 2em;
   color: #a9b3c8;
 }
 .hero-image {
-  width: 65em;
+  width: 55em;
   height: 60em;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .hero-skills {
@@ -125,7 +116,7 @@ nav a:hover {
 
 .hero-skill span {
   color: #a9b3c8;
-  font-size: 2rem;
+  font-size: 2.4em;
 }
 
 .hero-buttons {
@@ -135,7 +126,7 @@ nav a:hover {
 }
 
 .button-contact {
-  padding: 1em;
+  padding: 0.8em;
   font-size: 2em;
   background-color: #081121;
   border-radius: 0.8em;
@@ -148,13 +139,13 @@ nav a:hover {
 }
 
 .section {
-  margin-top: 1em;
+  margin-top: 2em;
 }
 
 .section-header {
   position: relative;
   display: inline-block;
-  font-size: 4em;
+  font-size: 3.6em;
   margin-bottom: 1em;
 }
 
@@ -198,12 +189,12 @@ nav a:hover {
 .section-skill-title span,
 .project-info-name {
   flex-wrap: wrap;
-  font-size: 3.2em;
+  font-size: 2.8em;
   font-weight: 500;
 }
 
 .section-skill-description {
-  font-size: 2.4em;
+  font-size: 2em;
   color: #a9b3c8;
   margin: 1em 0;
 }
@@ -317,11 +308,12 @@ nav a:hover {
 }
 
 .cooperation-info-text p:first-child {
-  font-size: 2.8em;
+  font-size: 2.4em;
 }
 
 .cooperation-info-text p:last-child {
-  font-size: 2em;
+  font-size:1.8em;
+  color: #a9b3c8;
 }
 
 .contacts-list {
@@ -352,7 +344,7 @@ nav a:hover {
 
 .contact-info p,
 .phone p {
-  font-size: 2em;
+  font-size: 1.8em;
   color: #a9b3c8;
 }
 
