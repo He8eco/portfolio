@@ -17,7 +17,7 @@ export function HeroSection() {
   ]
 
   return (
-    <section className="hero">
+    <section id="top" className="hero">
       <div className="hero-intro">
         <div>
           <div className="hero-status">
@@ -32,23 +32,25 @@ export function HeroSection() {
             Делаю аккуратные, современные и удобные <br />
             интерфейсы, которые решают задачи бизнеса.
           </p>
-
-         
         </div>
         <img className="hero-image" src={heroImage} alt="heroImages" />
       </div>
-       <ul className="hero-skills">
-            {skills.map((skill) => (
-              <li className="hero-skill" key={skill.name}>
-                <img className="hero-skill-icon" src={skill.icon} alt="" />
-                <span>{skill.name}</span>
-              </li>
-            ))}
-          </ul>
-          <div className="hero-buttons">
-            <a href='#projects' className='button-contact blue'>Посмотреть проекты</a>
-            <a href='#contacts' className='button-contact'>✉ Связаться</a>
-          </div>
+      <ul className="hero-skills">
+        {skills.map((skill) => (
+          <li className="hero-skill" key={skill.name}>
+            <img className="hero-skill-icon" src={skill.icon} alt="" />
+            <span>{skill.name}</span>
+          </li>
+        ))}
+      </ul>
+      <div className="hero-buttons">
+        <a href="#projects" className="button-contact blue">
+          Посмотреть проекты
+        </a>
+        <a href="#contacts" className="button-contact">
+          ✉ Связаться
+        </a>
+      </div>
     </section>
   )
 }

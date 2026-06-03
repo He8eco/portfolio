@@ -1,6 +1,6 @@
 export function Header() {
   return (
-    <header id="top">
+    <header>
       <a href="#top" className="logo" aria-label="HeBeco">
         <span>HeB</span>
         <span className="logo-accent">eco</span>
