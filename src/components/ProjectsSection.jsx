@@ -60,6 +60,7 @@ export function ProjectsSection() {
                     className="project-link"
                     href={project.web}
                     target="_blank"
+                     rel="noopener noreferrer"
                   >
                     <img src={web} alt="" />
                     Сайт
@@ -72,6 +73,7 @@ export function ProjectsSection() {
                     className="project-link"
                     href={project.github}
                     target="_blank"
+                     rel="noopener noreferrer"
                   >
                     <img src={gitHubLink} alt="" />
                     GitHub

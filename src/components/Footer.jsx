@@ -14,17 +14,17 @@ export function Footer() {
         <a href="#top">
           <img src={arrowTop} alt="" />
         </a>
-        <a href="https://t.me/..." target="_blank" rel="noopener noreferrer">
+        <a href="https://t.me/He8eco" target="_blank" rel="noopener noreferrer">
           <img src={telegram} alt="" />
         </a>
         <a
-          href="https://github.com/..."
+          href="https://github.com/He8eco"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img src={gitHubLink} alt="" />
         </a>
-        <a href="mailto:yourmail@gmail.com">
+        <a href="mailto:He8eco@yandex.ru">
           <img src={mail} alt="" />
         </a>
       </div>

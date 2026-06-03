@@ -10,18 +10,25 @@ export function ContactsSection() {
       type: 'Email',
       address: 'He8eco@yandex.ru',
       annotation: 'Отвечу в ближайшее время',
+      link: 'mailto:He8eco@yandex.ru',
     },
     {
       icon: telegram,
       type: 'Telegram',
       address: 't.me/He8eco',
       annotation: 'Быстрая связь и обсуждение',
+      link: 'https://t.me/He8eco',
+      target: true,
+      rel: true,
     },
     {
       icon: gitHubLink,
       type: 'GitHub',
       address: 'github.com/He8eco',
       annotation: 'Код и проекты',
+      link: 'https://github.com/He8eco',
+      target: true,
+      rel: true,
     },
   ]
 
@@ -43,11 +50,23 @@ export function ContactsSection() {
             </p>
           </div>
         </div>
-        <button className="button-contact blue">Связаться со мной →</button>
+        <a
+          href="https://t.me/He8eco"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="button-contact blue"
+        >
+          Связаться со мной →
+        </a>
       </div>
       <div className="contacts-list">
         {contacts.map((contact) => (
-          <div className="contact-block">
+          <a
+            href={contact.link}
+            target={contact.target ? '_blank' : ''}
+            rel={contact.rel ? 'noopener noreferrer' : ''}
+            className="contact-block"
+          >
             <img src={contact.icon} alt="" />
             <div className="contact-info">
               <p>{contact.type}</p>
@@ -55,7 +74,7 @@ export function ContactsSection() {
               <p>{contact.annotation}</p>
             </div>
             <span className="arrow">→</span>
-          </div>
+          </a>
         ))}
       </div>
       <div className="phone">
