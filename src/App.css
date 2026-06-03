@@ -38,8 +38,6 @@ nav a:hover {
 }
 
 .hero-intro {
-  display: flex;
-  justify-content: space-between;
   position: relative;
 }
 
@@ -100,6 +98,7 @@ nav a:hover {
 
 .hero-skills {
   display: inline-flex;
+  flex-wrap: wrap;
   gap: 4.8em;
 }
 
@@ -231,7 +230,7 @@ nav a:hover {
 }
 
 .section-project-cover {
-  width: 60em;
+  width: 40%;
 }
 
 .project-info {
@@ -312,12 +311,13 @@ nav a:hover {
 }
 
 .cooperation-info-text p:last-child {
-  font-size:1.8em;
+  font-size: 1.8em;
   color: #a9b3c8;
 }
 
 .contacts-list {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
   gap: 3.2em;
   margin: 3.2em 0 2em;
@@ -331,6 +331,7 @@ nav a:hover {
   border-radius: 0.8em;
   align-items: center;
   padding: 2em 3em;
+  min-width: 0;
 }
 
 .contact-block img {
@@ -340,12 +341,15 @@ nav a:hover {
 .contact-info,
 .phone-info {
   margin-left: 2em;
+  min-width: 0;
+  flex: 1;
 }
 
 .contact-info p,
 .phone p {
   font-size: 1.8em;
   color: #a9b3c8;
+  overflow-wrap: anywhere;
 }
 
 .contact-address {
@@ -355,6 +359,7 @@ nav a:hover {
 .arrow {
   margin-left: 1em;
   font-size: 4em;
+  flex-shrink: 0;
 }
 
 .phone img {
@@ -396,4 +401,339 @@ nav a:hover {
 
 .footer-spacer {
   justify-self: end;
+}
+
+@media (max-width: 1280px) {
+  body {
+    font-size: 8px;
+  }
+
+  header {
+    padding-right: 2em;
+  }
+
+  .section-skills {
+    margin-right: 4em;
+  }
+
+  .section-projects {
+    padding-right: 4em;
+  }
+
+  .contacts {
+    margin-right: 4em;
+  }
+
+  .contacts-list {
+    gap: 2em;
+  }
+
+  .contact-block {
+    padding: 2em;
+  }
+}
+
+@media (max-width: 1152px) {
+  body {
+    font-size: 7px;
+  }
+
+  .hero {
+    background:
+      radial-gradient(
+        circle at 50% 35%,
+        rgba(46, 97, 255, 0.35) 0%,
+        transparent 58%
+      ),
+      linear-gradient(135deg, #05080f 0%, #071022 45%, #050912 100%);
+  }
+
+  .hero-intro {
+  }
+
+  .hero-title,
+  .hero-description,
+  .hero-subtitle {
+    text-align: center;
+  }
+
+  .hero-description {
+    margin-bottom: 2em;
+  }
+
+  .hero-image {
+    display: none;
+  }
+
+  .hero-skills {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .contacts-list {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-block {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 6.5px;
+  }
+
+  header {
+    grid-template-columns: 1fr 3fr;
+    gap: 2em;
+    padding: 2em 0;
+  }
+
+  nav {
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    gap: 0.5em;
+  }
+
+  nav a {
+    font-size: 2.1em;
+    padding: 0.5em;
+  }
+
+  .hero {
+    padding-top: 3em;
+  }
+
+  .hero-status {
+    font-size: 1.8em;
+  }
+
+  .hero-title {
+    font-size: 5em;
+  }
+
+  .hero-subtitle {
+    font-size: 3em;
+  }
+
+  .hero-description br {
+    display: none;
+  }
+
+  .hero-description {
+    padding: 0 2em;
+  }
+
+  .hero-skills {
+    gap: 2.4em;
+    padding: 0 2em;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1.6em;
+    padding: 0 2em;
+  }
+
+  .button-contact {
+    text-align: center;
+  }
+
+  .section {
+    margin-top: 4em;
+  }
+
+  .section-header {
+    font-size: 3.2em;
+  }
+
+  .section-skills {
+    gap: 3em;
+  }
+
+  .section-skill {
+    width: 100%;
+  }
+
+  .section-list {
+    flex-wrap: wrap;
+  }
+
+  .section-project {
+    padding: 1.6em;
+    display: block;
+  }
+
+  .section-project-cover {
+    width: 80%;
+    margin: 0 auto 3em;
+  }
+
+  .project-info {
+    padding: 0;
+  }
+
+  .project-links {
+    flex-wrap: wrap;
+  }
+
+  .contacts {
+    padding: 2.4em;
+  }
+
+  .cooperation {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 3em;
+  }
+
+  .cooperation-info {
+    align-items: flex-start;
+  }
+
+  .cooperation-info-text p:first-child {
+    font-size: 2.2em;
+  }
+
+  .cooperation-info-text br {
+    display: none;
+  }
+
+  .contact-block,
+  .phone {
+    padding: 2em;
+  }
+
+  .footer {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 2em;
+  }
+
+  .footer-copy {
+    justify-self: center;
+  }
+
+  .footer-spacer {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 6px;
+  }
+
+  .logo {
+    font-size: 5em;
+  }
+
+  nav a {
+    font-size: 2em;
+  }
+
+  .hero-title {
+    font-size: 4.4em;
+  }
+
+  .hero-subtitle {
+    font-size: 2.6em;
+  }
+
+  .hero-skills {
+    justify-content: flex-start;
+  }
+
+  .hero-skill {
+    width: calc(50% - 1.2em);
+  }
+
+  .hero-skill-icon {
+    width: 2.8em;
+    height: 2.8em;
+    margin-right: 1em;
+  }
+
+  .hero-skill span {
+    font-size: 2em;
+  }
+
+  .section-skill-title span,
+  .project-info-name {
+    font-size: 2.4em;
+  }
+
+  .section-skill-title img {
+    width: 6em;
+  }
+
+  .project-description,
+  .section-skill-description {
+    font-size: 1.8em;
+  }
+
+  .contacts {
+    padding: 2em;
+  }
+
+  .cooperation-info {
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .cooperation-info-text {
+    margin-left: 0;
+  }
+
+  .contact-block {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    gap: 1.6em;
+    padding: 1.8em;
+  }
+
+  .contact-block img {
+    width: 5em;
+  }
+
+  .contact-info {
+    min-width: 0;
+    margin-left: 0;
+  }
+
+  .contact-info p {
+    overflow-wrap: anywhere;
+  }
+
+  .arrow {
+    margin-left: 0;
+    font-size: 3em;
+  }
+
+  .phone {
+    align-items: flex-start;
+  }
+
+  .phone-info {
+    min-width: 0;
+  }
+
+  .phone p {
+    overflow-wrap: anywhere;
+  }
+
+  .footer-links {
+    gap: 24px;
+  }
+
+  .footer-links img {
+    width: 3.6em;
+  }
 }
