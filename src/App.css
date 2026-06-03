@@ -411,6 +411,9 @@ nav a:hover {
 }
 
 @media (max-width: 1280px) {
+  html {
+    scroll-padding-top: 5em;
+  }
   body {
     font-size: 8px;
   }
