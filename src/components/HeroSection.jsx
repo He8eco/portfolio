@@ -17,7 +17,7 @@ export function HeroSection() {
   ]
 
   return (
-    <section id="top" className="hero">
+    <section className="hero">
       <div className="hero-intro">
         <div>
           <div className="hero-status">
