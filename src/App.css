@@ -4,6 +4,7 @@ header {
   grid-template-columns: 1fr auto 1fr;
   padding: 1em 4em 1em 0;
   align-items: center;
+  margin-left: 4em;
 }
 
 .logo {
@@ -34,7 +35,7 @@ nav a:hover {
       transparent 38%
     ),
     linear-gradient(135deg, #05080f 0%, #071022 45%, #050912 100%);
-  padding: 1em 0 2.5em;
+  padding: 1em 0 2.5em 4em;
 }
 
 .hero-intro {
@@ -139,6 +140,7 @@ nav a:hover {
 
 .section {
   margin-top: 2em;
+  margin-left: 4em;
 }
 
 .section-header {
@@ -274,6 +276,7 @@ nav a:hover {
   border-radius: 0.8em;
   margin: 3em 4em 0 0;
   padding: 3.8em;
+  margin-left: 4em;
 }
 
 .cooperation {
@@ -371,6 +374,7 @@ nav a:hover {
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
   padding: 2em 0;
+  margin-left: 4em;
 }
 
 .footer-copy {
