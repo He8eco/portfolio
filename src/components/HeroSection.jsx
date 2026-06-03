@@ -33,7 +33,11 @@ export function HeroSection() {
             интерфейсы, которые решают задачи бизнеса.
           </p>
 
-          <ul className="hero-skills">
+         
+        </div>
+        <img className="hero-image" src={heroImage} alt="heroImages" />
+      </div>
+       <ul className="hero-skills">
             {skills.map((skill) => (
               <li className="hero-skill" key={skill.name}>
                 <img className="hero-skill-icon" src={skill.icon} alt="" />
@@ -45,9 +49,6 @@ export function HeroSection() {
             <a href='#projects' className='button-contact blue'>Посмотреть проекты</a>
             <a href='#contacts' className='button-contact'>✉ Связаться</a>
           </div>
-        </div>
-        <img className="hero-image" src={heroImage} alt="heroImages" />
-      </div>
     </section>
   )
 }
