@@ -140,6 +140,7 @@ nav a:hover {
   background-color: #081121;
   border-radius: 0.8em;
   border: 0.2em solid #33425f;
+  height: 4em;
 }
 
 .button-contact.blue {
@@ -274,4 +275,96 @@ nav a:hover {
 
 .project-link img {
   width: 1.5em;
+}
+
+.contacts {
+  background-color: #071332;
+  border: 0.1em solid #3a4a67;
+  border-radius: 0.8em;
+  margin: 3em 4em 0 0;
+  padding: 3.8em;
+}
+
+.cooperation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cooperation-info {
+  display: flex;
+  align-items: center;
+}
+
+.cooperation-info-image {
+  border: 0.1em solid #375a9c;
+  border-radius: 1.8em;
+  padding: 1em;
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(1, 63, 219, 0.889) 20%,
+    transparent 80%
+  );
+}
+
+.cooperation-info-image img {
+  width: 7em;
+}
+
+.cooperation-info-text {
+  margin-left: 3em;
+}
+
+.cooperation-info-text p:first-child {
+  font-size: 2.8em;
+}
+
+.cooperation-info-text p:last-child {
+  font-size: 2em;
+}
+
+.contacts-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 3.2em;
+  margin: 3.2em 0 2em;
+}
+
+.contact-block, .phone {
+  display: flex;
+  background-color: #0b1222;
+  border: 0.2em solid #273652;
+  border-radius: 0.8em;
+  align-items: center;
+  padding: 2em 3em;
+}
+
+.contact-block img {
+  width: 6em;
+}
+
+.contact-info, .phone-info {
+  margin-left: 2em;
+}
+
+.contact-info p,.phone p {
+  font-size: 2em;
+  color: #a9b3c8;
+}
+
+.contact-address {
+  color: #f4f7ff !important;
+}
+
+.arrow {
+  margin-left: 1em;
+  font-size: 4em;
+}
+
+.phone img {
+  width: 6em;
+}
+
+.phone-info p {
+
 }

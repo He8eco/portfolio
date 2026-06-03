@@ -1,4 +1,5 @@
 import './App.css'
+import { ContactsSection } from './components/ContactsSection'
 import { Header } from './components/Header'
 import { HeroSection } from './components/HeroSection'
 import { ProjectsSection } from './components/ProjectsSection'
@@ -11,6 +12,7 @@ function App() {
       <HeroSection />
       <SkillsSection />
       <ProjectsSection />
+      <ContactsSection/>
     </>
   )
 }
