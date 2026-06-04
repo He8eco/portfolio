@@ -46,7 +46,7 @@ export function ContactsSection() {
             </p>
             <p>
               Открыт к интересным проектам
-              <br />и сотрудничеству
+              <br /> и сотрудничеству
             </p>
           </div>
         </div>

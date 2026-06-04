@@ -1,6 +1,7 @@
 import artPlast from '../assets/images/art-plast.png'
 import biomech from '../assets/images/Biomech.png'
 import gameexplorer from '../assets/images/gameexplorer.png'
+import uszn from '../assets/images/uszn.png'
 import gitHubLink from '../assets/images/icons/github-link.svg'
 import web from '../assets/images/icons/web.svg'
 
@@ -9,7 +10,7 @@ export function ProjectsSection() {
     {
       name: 'Арт-Пласт',
       cover: artPlast,
-      type: 'Коммерческий',
+      type: 'Учебный проект',
       description:
         'Интернет-магазин, разработанный с нуля на React и Firebase. Каталог товаров, детальные карточки, фильтрация, адаптивный дизайн и удобный интерфейс.',
       tags: ['React', 'Firebase', 'Tailwind CSS', 'React Router'],
@@ -35,6 +36,17 @@ export function ProjectsSection() {
       web: 'https://game-explorer-ivory.vercel.app/',
       github:
         'https://github.com/He8eco/frontend-workflow-lab/tree/main/game-explorer',
+    },
+    {
+      name: 'УСЗН Тацинского района',
+      cover: uszn,
+      type: 'Учебный проект',
+      description:
+        'Концепт редизайна главной страницы государственного сайта. Целью было переосмыслить визуальную подачу, сделать интерфейс более современным, понятным и удобным для пользователя. Проект изначально разрабатывался на HTML, CSS и JavaScript, затем был перенесён в WordPress, где была добавлена версия для слабовидящих через плагин доступности. Текущая опубликованная версия — статическая HTML/CSS/JS-версия сайта, а в GitHub хранится архивная WordPress-версия с PHP-шаблонами и структурой темы.',
+      tags: ['HTML', 'CSS', 'JavaScript', 'WordPress', 'Accessibility'],
+      web: 'https://uszn-nine.vercel.app/',
+      github:
+        'https://github.com/He8eco/USZN-wordpress-archive',
     },
   ]
 
