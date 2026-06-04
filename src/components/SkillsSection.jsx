@@ -9,7 +9,7 @@ export function SkillsSection() {
       icon: code,
       description:
         'Вёрстка и разработка адаптивных, быстрых и доступных интерфейсов.',
-      tags: ['HTML', 'CSS', 'JavaScript', 'Vite', 'Figma'],
+      tags: ['HTML', 'CSS', 'JavaScript', 'Vite', 'Figma', 'Animation'],
     },
     {
       name: 'React & UI',
@@ -19,11 +19,11 @@ export function SkillsSection() {
       tags: ['React', 'Redux Toolkit', 'React Router', 'Tailwind'],
     },
     {
-      name: 'API & Tools',
+      name: 'API / CMS / Tools',
       icon: cube,
       description:
-        'Работа с API и базами данных. Инструменты для разработки, деплоя и контроля версий.',
-      tags: ['Supabase', 'Firebase', 'GitHub', 'Vercel'],
+        'Работа с API, базами данных, CMS, деплоем и инструментами контроля версий.',
+      tags: ['Supabase', 'Firebase', 'WordPress', 'GitHub', 'Vercel'],
     },
   ]
 
