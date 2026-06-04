@@ -1,5 +1,6 @@
 import './App.css'
 import { ContactsSection } from './components/ContactsSection'
+import { ExperimentsSection } from './components/ExperimentsSection'
 import { Footer } from './components/Footer'
 import { Header } from './components/Header'
 import { HeroSection } from './components/HeroSection'
@@ -14,6 +15,7 @@ function App() {
       <HeroSection />
       <SkillsSection />
       <ProjectsSection />
+      <ExperimentsSection />
       <ContactsSection />
       <Footer />
     </>
