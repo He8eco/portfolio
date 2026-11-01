@@ -1,5 +1,6 @@
 import artPlast from '../assets/images/art-plast.png'
 import biomech from '../assets/images/Biomech.png'
+import ds from '../assets/images/DS.png'
 import gameexplorer from '../assets/images/gameexplorer.png'
 import uszn from '../assets/images/uszn.png'
 import gitHubLink from '../assets/images/icons/github-link.svg'
@@ -25,6 +26,15 @@ export function ProjectsSection() {
         'Участие в проекте BioMech, где я занимался реализацией прототипов дизайнов из Figma в код, дорабатывая дизайны страниц и добавляя функциональные элементы (функционал писал на ванильном JS), анимации и адаптируя плагины для специфических задач.',
       tags: ['JS', 'HTML', 'CSS', 'Canvas'],
       github: 'https://github.com/NadezhdaVoskan/BioMech',
+    },
+    {
+      name: 'Doomsday Assistant',
+      cover: ds,
+      type: 'Учебный проект',
+      description:
+        'Личный проект автоматизации игровых процессов на Python. Реализованы управление несколькими аккаунтами, распознавание интерфейса с использованием OpenCV и OCR, автоматизированное выполнение задач, система восстановления после ошибок и панель управления Neon Protocol. Технологии: Python, OpenCV, Tesseract OCR, PyWin32. Моя роль: постановка задач, проектирование сценариев автоматизации, тестирование, поиск ошибок и последовательная доработка решений с использованием ИИ. Реализация кода выполнялась при помощи ИИ.',
+      tags: ['Python', 'Автоматизация', 'AI-assisted development'],
+      github: 'https://github.com/He8eco/Doomsday-Assistant',
     },
     {
       name: 'Game Explorer',
